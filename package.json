@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@abandonware/bleno": "^0.6.1",
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-10"
+  }
+}
