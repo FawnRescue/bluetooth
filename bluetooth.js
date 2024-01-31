@@ -38,11 +38,3 @@ bleno.on('disconnect', (clientAddress) => {
     bleno.stopAdvertising();
     bleno.startAdvertising('FawnRescue', [CustomService.uuid]);
 });
-
-// Optionally handle new client connections
-bleno.on('accept', (clientAddress) => {
-    setTimeout(() => {
-        bleno.disconnect(); // Disconnect the inactive client
-        bleno.startAdvertising('FawnRescue', [CustomService.uuid]);
-    }, 5000);
-});
