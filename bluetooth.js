@@ -10,7 +10,6 @@ const DataTransferCharacteristic = new BluetoothCharacteristic({
     onWriteRequest: function (receivedData, offset, withoutResponse, callback) {
         console.log(receivedData.toString()); // Log the received data
         callback(this.RESULT_SUCCESS); // Signal successful write operation
-        process.exit()
     }
 });
 
