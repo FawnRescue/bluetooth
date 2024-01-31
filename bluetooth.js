@@ -24,6 +24,7 @@ const DataTransferCharacteristic = new BluetoothCharacteristic({
             console.log(dataStr); // Log the complete data string
             this._dataBuffer = Buffer.alloc(0); // Reset the buffer
             callback(this.RESULT_SUCCESS); // Signal successful write operation
+            process.exit()
         } else {
             callback(this.RESULT_SUCCESS); // Signal successful write operation, waiting for more data
         }
