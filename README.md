@@ -60,7 +60,3 @@ The Bluetooth service is designed to be integrated with both the drone hardware 
 ## Contributing
 
 We welcome contributions that help improve the security or functionality of the Bluetooth authentication service. Please see CONTRIBUTING.md for more information on how to submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
