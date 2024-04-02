@@ -56,7 +56,3 @@ The Bluetooth service is designed to be integrated with both the drone hardware 
 - **Drone Integration**: Follow the instructions in the drone's repository to integrate the BLE service, ensuring the BLE UUIDs in the `bluetooth.js` match those expected by the drone's firmware.
 
 - **App Integration**: The control application should implement the BLE client logic to establish a connection with the BLE service running on the drone, using the API endpoints defined in `bluetooth.js`.
-
-## Contributing
-
-We welcome contributions that help improve the security or functionality of the Bluetooth authentication service. Please see CONTRIBUTING.md for more information on how to submit pull requests.
